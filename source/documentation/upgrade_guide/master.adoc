@@ -12,7 +12,7 @@ include::chap-Red_Hat_Virtualization_Upgrade_Overview.adoc[leveloffset=+1]
 
 >> Fast-forward does not work with migration from 4.3 to 4.4, because the migration path requires installing RHEL 8.2 or later before you can install RHV 4.4.
 
-= Fast-forward Upgrading a Local Database Environment
+== Fast-forward Upgrading a Local Database Environment
 
 :local_database_upgrade_ff:
 
@@ -26,33 +26,33 @@ include::assembly-Upgrading_from_4-2_ff.adoc[leveloffset=+1]
 ////
 
 
-= Upgrading a standalone {engine-name} local database environment
+== Upgrading a standalone {engine-name} local database environment
 :local_database_upgrade:
 
-include::assembly-Upgrading_from_4-3.adoc[leveloffset=+1]
+include::assembly-Upgrading_from_4-3.adoc[leveloffset=+2]
 
-include::assembly-Upgrading_from_4-2.adoc[leveloffset=+1]
+include::assembly-Upgrading_from_4-2.adoc[leveloffset=+2]
 :local_database_upgrade!:
 
-= Upgrading a standalone {engine-name} remote database environment
+== Upgrading a standalone {engine-name} remote database environment
 :remote_database_upgrade:
 
-include::assembly-Remote_Upgrading_from_4-3.adoc[leveloffset=+1]
+include::assembly-Remote_Upgrading_from_4-3.adoc[leveloffset=+2]
 
-include::assembly-Remote_Upgrading_from_4-2.adoc[leveloffset=+1]
+include::assembly-Remote_Upgrading_from_4-2.adoc[leveloffset=+2]
 :remote_database_upgrade!:
 
-= Upgrading a self-hosted engine environment
+== Upgrading a self-hosted engine environment
 :SHE_upgrade:
 
-include::assembly-SHE_Upgrading_from_4-3.adoc[leveloffset=+1]
+include::assembly-SHE_Upgrading_from_4-3.adoc[leveloffset=+2]
 
-include::assembly-SHE_Upgrading_from_4-2.adoc[leveloffset=+1]
+include::assembly-SHE_Upgrading_from_4-2.adoc[leveloffset=+2]
 :SHE_upgrade!:
 
-= Updates between minor releases
+== Updates between minor releases
 
-include::chap-Updates_between_Minor_Releases.adoc[leveloffset=+1]
+include::chap-Updates_between_Minor_Releases.adoc[leveloffset=+2]
 
 :numbered!:
 
